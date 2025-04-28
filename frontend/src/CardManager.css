@@ -1,0 +1,88 @@
+.card-manager-modal {
+  position: fixed;
+  left: 0; top: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.3);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-manager-content {
+  background: #fff;
+  border-radius: 16px;
+  padding: 32px 24px 24px 24px;
+  max-width: 480px;
+  width: 100%;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.12);
+}
+.card-manager-content h2 {
+  text-align: center;
+  color: #5b2c6f;
+  margin-bottom: 18px;
+}
+.add-form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+.add-form input {
+  flex: 1;
+  padding: 6px 8px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  font-size: 1em;
+}
+.add-form button {
+  background: #7d3c98;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 14px;
+  font-size: 1em;
+  cursor: pointer;
+}
+.card-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 18px 0;
+  max-height: 220px;
+  overflow-y: auto;
+}
+.card-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 6px;
+}
+.card-list .q {
+  flex: 1;
+  color: #34495e;
+}
+.card-list .a {
+  flex: 1;
+  color: #4a235a;
+}
+.delete-btn {
+  background: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 4px 10px;
+  margin-left: 8px;
+  cursor: pointer;
+}
+.close-btn {
+  display: block;
+  margin: 0 auto;
+  background: #bbb;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 18px;
+  font-size: 1em;
+  cursor: pointer;
+}
+.close-btn:hover {
+  background: #888;
+}
